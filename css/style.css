@@ -1,0 +1,212 @@
+html, body {
+  margin: 0;
+  height: 100%;
+}
+
+body {
+  margin-top: auto;
+  padding-top: auto;
+  padding-bottom: auto;
+  background-color: #a8896e;
+  background: url("http://i.imgur.com/u9uxpu3.jpg") repeat-y fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: 0 40%;
+}
+
+
+.header-cont {
+  width: 100%;
+  position: fixed;
+  top: 0;
+}
+
+.header {
+  
+  height: auto;
+  background-color: #0b89d5;
+  width: auto;
+  margin: 0;
+  padding: 0;
+  color: yellow;
+  text-align: Left;
+  position: fixed;
+}
+
+.parallax {
+  height: 1000px;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.font-title {
+  display:block;
+  margin-left:auto;
+  margin-right: auto; 
+  max-width: 100%;
+}
+
+.home-title {
+  box-shadow: 0px 0px 30px 30px #000;
+  align: center;
+  width: 70%;
+  height: wrap;
+  margin: 0 auto;
+  padding: 0% 0% 5% 0%;
+  position: relative;
+  top: 17%;
+  overflow: hidden;
+  
+}
+
+.side-by-align {
+  display: flex;
+}
+
+.align-fix {
+  flex: 1;
+  padding: 1em;
+}
+.first-frame { 
+  max-height: 100%;
+  max-width: 100%;
+  
+  float: right;
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: cover;
+  backgroung-color: #a8896e;
+  background-image: url("https://lh5.googleusercontent.com/-zKJ1eKAhMM8/AAAAAAAAAAI/AAAAAAAADT4/nFQ2Hx1gbZg/s0-c-k-no-ns/photo.jpg");
+  box-shadow: inset 0px 0px 30px 20px #a8896e;
+}
+
+.second-frame {
+  height: auto;
+  max-width: 100%;
+  background-attachment: fixed;
+  background-color: #a8896e;
+  color: yellow;
+  padding: 20px 20px 10px 20px;
+  font-size: 17px;
+  text-shadow: 2px 3px 3px #000;
+  text-align: justify;
+}
+
+.portfolio {
+  /*background: #a8896e;*/
+}
+
+.port-title {
+  
+  font-size: 500%;
+  color: yellow;
+  text-shadow: 5px 5px 10px #000;
+  text-align: center;
+}
+
+.portfolio-items {
+
+}
+
+.port-item-1 {
+
+  /*backgroung-color: #a8896e;*/
+}
+
+.port-item-2 {
+  height: 20%;  
+ 
+}
+
+.port-item-3 {
+  
+}
+
+.btn {
+  background: lightblue;
+  border-radius: 10px;
+  padding: 10px 20px 10px 20px;
+  font-family: Arial;
+  
+}
+
+.contact-buttons {
+  position: relative;
+  top: -6%;
+  align: center;
+}
+
+/*Facebook-----------------------*/
+a.button-facebook {
+	background-color: #2b4170; /* fallback color */
+	background: -moz-linear-gradient(top, #3b5998, #2b4170);
+	background: -ms-linear-gradient(top, #3b5998, #2b4170);
+	background: -webkit-linear-gradient(top, #3b5998, #2b4170);
+	border: 1px solid #2b4170;
+	text-shadow: 0 -1px -1px #1f2f52;
+}
+
+a.button-facebook:hover {
+	background-color: #3b5998; /* fallback color */
+	background: -moz-linear-gradient(top, #2b4170, #3b5998);
+	background: -ms-linear-gradient(top, #2b4170, #3b5998);
+	background: -webkit-linear-gradient(top, #2b4170, #3b5998);
+}
+
+/*
+Google+
+------------------------------------------------------------ */
+
+a.button-googleplus {
+	background-color: #c33219; /* fallback color */
+	background: -moz-linear-gradient(top, #e64522, #c33219);
+	background: -ms-linear-gradient(top, #e64522, #c33219);
+	background: -webkit-linear-gradient(top, #e64522, #c33219);
+	border: 1px solid #c33219;
+	text-shadow: 0 -1px -1px #972412;
+}
+
+a.button-googleplus:hover {
+	background-color: #e64522; /* fallback color */
+	background: -moz-linear-gradient(top, #c33219, #e64522);
+	background: -ms-linear-gradient(top, #c33219, #e64522);
+	background: -webkit-linear-gradient(top, #c33219, #e64522);
+}
+
+
+/*
+Global Styles
+------------------------------------------------------------ */
+a.github-button,
+a.button-dribbble,
+a.button-facebook,
+a.button-googleplus,
+a.button-linkedin,
+a.button-pinterest,
+a.button-rss,
+a.button-tumblr,
+a.button-twitter {
+	border-radius: 3px;
+	box-shadow: 0 1px 1px #999;
+	color: #fff;
+	display: inline-block;
+	font-size: 16px;
+	margin: 0 20px 20px 0;
+	margin: 0 2rem 2rem 0;
+	padding: 10px 15px;
+	padding: 1rem 1.5rem;
+	text-align: center;
+	width: 140px;
+}
+
+.displayed {
+  display: block;
+  clear: both;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
